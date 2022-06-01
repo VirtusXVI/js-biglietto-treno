@@ -16,4 +16,5 @@ if(userAge > 65){
 } else if(userAge < 18){
     userPrice = userPrice - (userPrice * 0.2)
 }
+// OUTPUT
 document.getElementById("price").innerHTML = "il prezzo del biglietto è:" + userPrice.toFixed(2);
